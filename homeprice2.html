@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="home.css"rel="stylesheet"type="text/css">
+    <title>pathfounder_</title>
+    <link href="Photos/LogoPathF.jpg"rel="shortcut icon">
+</head>
+    <body>
+        <!--Title and menu-->
+        <header class="header-area">
+            <div class="container">
+                <a href="home.html" class="logo">pathfounder_</a>
+                <nav> 
+                    <menu>
+                        <ul id="menutest">
+                            <li class="menub"><a href="#video">Home</a></li>
+                            <li class="menub"><a href="#about">About</a></li>
+                            <li class="menub"><a href="#classes">Product</a></li>
+                            <li class="menub"><a href="#price">Price</a></li>
+                            <li class="menub"><a href="#contact">Contact</a></li>
+                            <li class="button"><a href="formlogin.html">Login</a></li>
+                        </ul>
+                    </menu>   
+                </nav>
+            </div>
+        </header> 
+
+        <!--Video-->
+        <section class="section" id="video">
+            <div class="videobackground">
+                <video autoplay muted loop id="background-video">
+                    <source src="Videos/tes3.mp4" type="video/mp4" />
+                </video>
+            </div>
+            <div class="video-overlay text">
+                <div class="videotext">
+                    <h1>Pemuja Pen Tool</h1>
+                    <h2>Home of <em>Random Idea</em></h2>
+                    <div class="button">
+                        <a href="formsignup.html">Become A Member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--About-->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="abouttitle">
+                    <h1>What We <em>Sell Here</em></h1>
+                    <p>We sell some product, for ready stock and custom order for you. You can look at our product down here.</p>
+                </div>
+                <div class="aboutitem">
+                    <ul class="features-item">
+                        <li class="item">
+                            <div class="left">
+                                <img src="Photos/animal3.jpg">
+                            </div>
+                            <div class="right">
+                                <h1>Animal</h1>
+                                <p>This is an animal photo. You can order for specific animal for example a jellyfish or a t-rex.</p>
+                                <a href="#about" class="button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="left">
+                                <img src="Photos/object2.jpg">
+                            </div>
+                            <div class="right">
+                                <h1>Object</h1>
+                                <p>This is an object photo. It can be a random object that has some kind of aesthetic value. You can order a custom object photo.</p>
+                                <a href="#about" class="button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="left">
+                                <img src="Photos/place9.jpg">
+                            </div>
+                            <div class="right">
+                                <h1>Place</h1>
+                                <p>This is a place photo. We take photos of some place that we think it's photogenic. You can order a custom places photo.</p>
+                                <a href="#about" class="button">Discover More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aboutitem">
+                    <ul class="features-item">
+                        <li class="item">
+                            <div class="left">
+                                <img src="Photos/vector3.jpg">
+                            </div>
+                            <div class="right">
+                                <h1>3D Vector</h1>
+                                <p>This is vector image. It could be in 3D object that required extra skills and time to make. You can order a custom images.</p>
+                                <a href="#about" class="button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="left">
+                                <img src="Photos/vector4.jpg">
+                            </div>
+                            <div class="right">
+                                <h1>Black White Vector</h1>
+                                <p>This is a vector image but in black white. It doesn't have color and it could be in 3D or 2D object. You can order a custom image.</p>
+                                <a href="#about" class="button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="item">
+                            <div class="left">
+                                <img src="Photos/vector6.jpg">
+                            </div>
+                            <div class="right">
+                                <h1>2D Vector</h1>
+                                <p>This is a vector image. It have 2D style object so it's simplier than 3D vector photo. You can order a custom image.</p>
+                                <a href="#about" class="button">Discover More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>   
+        </section>
+
+        <!--Banner-->
+        <section class="section" id="banner">
+            <div class="container">
+                <div class="text">
+                    <h1><em>Don’t think ,</em> begin today!</h1>
+                    <p>Express your imagination by an image. We try to objectify your imagination through image for you to share with others.</p>
+                    <div class="button">
+                        <a href="formsignup.html">Become A Member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tugas Tambahan1-->
+        <section class="tugas1" id="fillapp">
+            <div class="container">
+                <h1><em>Fill</em> This Application <em>Now!</em></h1>
+                <hr></hr>
+                <p>Ini adalah dummy text yang saya tulis sendiri karena saya tidak tahu mau tulis apa. Makasih.</p>
+                <form class="fillform">
+                    <input name="name" type="text" id="name" placeholder="Your name..." required="">
+                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your email..." required="">
+
+                    <select>
+                        <option value="" disabled selected>Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+
+                    <select>
+                        <option value="" disabled selected>Age</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                    </select>
+
+                    <button type="submit" id="form-submit" class="button">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Classes -->
+        <section class="section" id="classes">
+            <div class="container">
+                <div class="classtitle">
+                    <h1>Our <em>Product</em></h1>
+                    <p>Here's some explanation for our product. You can read the below text before you order a custom photo or just buy a stock photo.</p>
+                </div>
+                <div class="classtabs" data-target=".division-details" id="tabs">
+                    <ul>
+                        <li class="map-point-sm" data-show=".mytab1"><a href="home.html#classes"><img src="" alt="">First Product</a></li>
+                        <li class="map-point-sm" data-show=".mytab2"><a href="home1.html#classes"><img src="" alt="">Second Product</a></a></li>
+                        <li class="map-point-sm" data-show=".mytab3"><a href="home2.html#classes"><img src="" alt="">Third Product</a></a></li>
+                        <li class="map-point-sm" data-show=".mytab4"><a href="home3.html#classes"><img src="" alt="">Fourth Product</a></a></li>
+                        <div class="button"><a href="#classes">View Product</a></div>
+                    </ul>
+                </div>
+
+                <div class="tabs-content division-details">
+                    <article class="mytab1">
+                        <img src="Photos/Citranet Mockup.jpg">
+                        <h1>First Product</h1>
+                        <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                        <div class="button">
+                            <a href="#classes">View Product</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price -->
+        <section class="section" id="price">
+            <div class="container">
+                <div class="price-title">
+                    <h1><em>Product</em> Price</h1>
+                    <p>Here's the price of our product for any category. You can look at the price down below.</p>
+                </div>
+                <div class="price-type">
+                    <ul>
+                        <li><a href="home.html#price">Vector</a></li>
+                        <a>/</a>
+                        <li><a href="homeprice1.html#price">Photo</a></li>
+                        <a>/</a>
+                        <li><a href="homeprice2.html#price"><em>Video</em></a></li>
+                    </ul>
+                </div>
+
+                <table rules="all" class="table-1">
+                    <tbody>
+                        <tr>
+                            <td colspan="2">Ready</td>
+                        </tr>
+                        <tr>
+                            <td>Type</td>
+                            <td>Price</td>
+                        </tr>
+                        <tr>
+                            <td>Raw</td>
+                            <td>Rp30.000</td>
+                        </tr>
+                        <tr>
+                            <td>Edited</td>
+                            <td>Rp60.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table rules="all" class="table-2">
+                    <tbody>
+                        <tr>
+                            <td colspan="3">Custom</td>
+                        </tr>
+                        <tr>
+                            <td>Type</td>
+                            <td>Pre-order Time</td>
+                            <td>Price</td>
+                        </tr>
+                        <tr>
+                            <td>Raw</td>
+                            <td>+- 7 days</td>
+                            <td>Rp70.000</td>
+                        </tr>
+                        <tr>
+                            <td>Edited</td>
+                            <td>+- 14 days</td>
+                            <td>Rp100.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Artist -->
+        <section class="section" id="artist">
+            <div class="container">
+                <div class="artist-title">
+                    <h1>Expert <em>Artist</em></h1>
+                    <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                </div>
+
+                <div class="artist-detail">
+                    <div class="artist-detail1">
+                        <h1>Saya <em>Sendiri</em></h1>
+                        <h2>Vector Expert</h2>
+                        <img src="Photos/vector2.jpg">
+                        <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                        <div class="artist-socmed">
+                            <a href="https://www.facebook.com/"target="_blank"><img src="Photos/.facebook.png"></a>
+                            <a href="https://www.instagram.com/pathfounder_/"target="_blank"><img src="Photos/.instagram.png"></a>
+                            <a href="https://www.tiktok.com/en/"target="_blank"><img src="Photos/.tiktok.png"></a>
+                            <a href="https://twitter.com/?lang=en"target="_blank"><img src="Photos/.twitter.png"></a>
+                        </div>
+                    </div>
+                    <div class="artist-detail2">
+                        <h1>Saya Masih <em>Sendiri</em></h1>
+                        <h2>Photo Expert</h2>
+                        <img src="Photos/animal4.jpg">
+                        <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                        <div class="artist-socmed">
+                            <a href="https://www.facebook.com/"target="_blank"><img src="Photos/.facebook.png"></a>
+                            <a href="https://www.instagram.com/pathfounder_/"target="_blank"><img src="Photos/.instagram.png"></a>
+                            <a href="https://www.tiktok.com/en/"target="_blank"><img src="Photos/.tiktok.png"></a>
+                            <a href="https://twitter.com/?lang=en"target="_blank"><img src="Photos/.twitter.png"></a>
+                        </div>
+                    </div>
+                    <div class="artist-detail3">
+                        <h1>Saya Tetap <em>Sendiri</em></h1>
+                        <h2>Video Expert</h2>
+                        <video autoplay muted loop>
+                            <source src="Videos/tes1.mp4">
+                        </video>
+                        <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                        <div class="artist-socmed">
+                            <a href="https://www.facebook.com/"target="_blank"><img src="Photos/.facebook.png"></a>
+                            <a href="https://www.instagram.com/pathfounder_/"target="_blank"><img src="Photos/.instagram.png"></a>
+                            <a href="https://www.tiktok.com/en/"target="_blank"><img src="Photos/.tiktok.png"></a>
+                            <a href="https://twitter.com/?lang=en"target="_blank"><img src="Photos/.twitter.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15868.325307185594!2d106.8683065!3d-6.1197552!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8e04f6c623753e71!2sGereja%20HKBP%20Volker!5e0!3m2!1sen!2sid!4v1630556333536!5m2!1sen!2sid" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="form-tab">
+                    <form>
+                        <input name="name" type="text" id="name" placeholder="Your Name*" required="">
+                        <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
+                        <input name="subject" type="text1" id="subject" placeholder="Subject">
+                        <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
+                        <button type="submit" id="form-submit" class="button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Tugas Tambahan2-->
+        <section class="section" id="balon">
+            <div class="container">
+                <a href="#"><h1>Live View</h1></a>
+                <a href="#"><h1>Download</h1></a>
+                <a href="#"><h1>Full-size Screenshot</h1></a>
+                <a href="#"><h1>Contact Form PHP Script</h1></a>
+            </div>
+        </section>
+
+        <!-- Profile -->
+        <section class="section" id="profile">
+            <div class="container">
+                <img src="Photos/meh.JPEG">
+                <div class="text">
+                    <h1>P r o f i l e</h1>
+                    <h2>N I M       :   8 2 5 2 0 0 0 8 2</h2>
+                    <h2>N a m e     :   Y o s i a   A l v i n</h2>
+                </div>
+                <div class="profile-socmed">
+                    <a href="https://www.facebook.com/"target="_blank"><img src="Photos/.facebook.png"></a>
+                    <a href="https://www.instagram.com/pathfounder_/"target="_blank"><img src="Photos/.instagram.png"></a>
+                    <a href="https://www.google.com/search?q=telephone&newwindow=1&bih=697&biw=1292&hl=en&sxsrf=AOaemvK7teXzL4Be2kGxkWYD_Vt0pWVqXA%3A1632976088332&source=hp&ei=2DxVYci6EfnM1sQP3665uAg&iflsig=ALs-wAMAAAAAYVVK6AqRq5nvyr0rrSHfiWO-Sp8R3eHs&oq=telephone&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBQgAEMsBMgUIABCABDIFCAAQywEyBQgAEMsBMgcIABAKEMsBMgUIABDLATIFCAAQgAQyBQgAEIAEMgUIABDLAToFCAAQkQI6BAgAEEM6BwgAELEDEEM6CggAELEDEIMBEEM6DQguELEDEMcBEKMCEEM6CgguEMcBEK8BEEM6CAgAEIAEELEDULkEWMkNYOEOaABwAHgBgAGRBIgBpguSAQk0LjEuMi41LTGYAQCgAQE&sclient=gws-wiz&ved=0ahUKEwjIhq397aXzAhV5ppUCHV9XDocQ4dUDCAc&uact=5"target="_blank"><img src="Photos/.phone-call.png"></a>
+                    <a href="https://www.tiktok.com/en/"target="_blank"><img src="Photos/.tiktok.png"></a>
+                    <a href="https://twitter.com/?lang=en"target="_blank"><img src="Photos/.twitter.png"></a>
+                    <a href="https://web.whatsapp.com/"target="_blank"><img src="Photos/.whatsapp.png"></a>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="footer-area">
+            <div class="container">
+                <h1>Copyright © 2020 - - Designed by -</h1>
+            </div>
+        </footer>
+    </body>
+</html>
